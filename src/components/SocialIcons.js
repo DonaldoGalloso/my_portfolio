@@ -11,6 +11,7 @@ const SocialIcons = () => {
   return (
     <div className="socialIcons" style={styles.socialIcons}>
       <a
+        Target="_blank"
         className="icon"
         style={styles.icon}
         href="https://github.com/DonaldoGalloso"
@@ -22,6 +23,7 @@ const SocialIcons = () => {
         ></i>
       </a>
       <a
+        Target="_blank"
         className="icon"
         style={styles.icon}
         href="https://www.linkedin.com/in/donaldo-galloso/"
@@ -33,6 +35,7 @@ const SocialIcons = () => {
         ></i>
       </a>
       <a
+        Target="_blank"
         className="icon"
         style={styles.icon}
         href="https://www.instagram.com/donald_reac/"
@@ -44,6 +47,7 @@ const SocialIcons = () => {
         ></i>
       </a>
       <a
+        Target="_blank"
         className="icon"
         style={styles.icon}
         href="https://twitter.com/DonaldReac"
