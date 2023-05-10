@@ -1,21 +1,20 @@
 [
   {
-    "title": "Bike Buddy",
-    "image": "./projectImages/bike.png",
-    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
-    "technologies": "Leaflet | jQuery | Bootstrap",
-    "github": "https://github.com/mdyeates/bike-buddy",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "title": "To-doApp",
+    "image": "./projectImages/todoapp.png",
+    "description": "This Application consumes the DummyJSON API which brings us a certain amount of tasks which we can edit, delete, mark as done, as well as create our own.",
+    "technologies": "React | TailWind | Animate.css | Sweetalert2",
+    "github": "https://github.com/DonaldoGalloso/Todo-app",
+    "deployed": "https://to-doappdonaldo.netlify.app/",
     "bgcolor": "#f37737",
     "id": "1"
   },
   {
     "title": "Weather",
     "image": "./projectImages/weather.png",
-    "technologies": "jQuery | HTML | CSS",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
-    "github": "https://github.com/mdyeates/weather-app",
-    "deployed": "https://mdyeates.github.io/weather-app/",
+    "technologies": "React | CSS",
+    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name and country.",
+    "deployed": "https://climareactdonaldo.netlify.app/",
     "bgcolor": "#29cbe0",
     "id": "2"
   },

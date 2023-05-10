@@ -78,11 +78,13 @@ body {
   padding: 12px var(--sm-spacing);
   border-radius: 20px;
   margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #03b979;
+  background-color: #36a2fa;
 }
 
 /* --- MOBILE STYLES --- */
@@ -165,12 +167,12 @@ header {
     top: auto;
     width: 0;
     left: 0;
-    padding: 0 10px;
+    padding: 0 40px;
   }
 
   .links a {
     padding: 0px;
-    margin-left: 3px;
+    margin-left: 13px;
   }
 
   .links a:not(:last-child) {

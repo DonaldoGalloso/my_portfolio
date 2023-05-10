@@ -4,9 +4,18 @@ import Modal from "react-modal";
 import { useState } from "react";
 import closeModal from "../images/close.svg";
 
-const Project = ({ technologies, title, image, color, id, github, deployed, description }) => {
+const Project = ({
+  technologies,
+  title,
+  image,
+  color,
+  id,
+  github,
+  deployed,
+  description,
+}) => {
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 0.1,
     triggerOnce: true,
   });
 
@@ -28,7 +37,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
       variants={variants}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
-      transition={{ duration: 0.4, ease: "easeInOut" }}
+      transition={{ duration: 0.1, ease: "easeInOut" }}
     >
       <div
         style={{ backgroundColor: color }}
@@ -67,15 +76,25 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
           },
         }}
       >
-        <img src={closeModal} className="closeMenu closeModal" onClick={handleCloseModal} alt="Close"></img>
+        <img
+          src={closeModal}
+          className="closeMenu closeModal"
+          onClick={handleCloseModal}
+          alt="Close"
+        ></img>
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <button className="btn" onClick={() => (window.location.href = github)}>
-          GitHub Repo
-        </button>
-        <button className="btn" onClick={() => (window.location.href = deployed)}>
-          Live Link
-        </button>
+        {github ? (
+          <a className="btn" target="_blank" rel="noreferrer" href={github}>
+            GitHub Repo
+          </a>
+        ) : null}
+
+        {deployed ? (
+          <a className="btn" rel="noreferrer" target="_blank" href={deployed}>
+            Live Link
+          </a>
+        ) : null}
       </Modal>
     </motion.div>
   );

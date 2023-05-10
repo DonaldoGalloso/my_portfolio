@@ -4,7 +4,7 @@ import PageHeader from "../../components/PageHeader";
 const About = ({ name, location, brand, email, availability }) => {
   return (
     <section className="about">
-      <PageHeader title="Acerca de mi" />
+      <PageHeader title="About me" />
       <AboutMe
         name={name}
         location={location}

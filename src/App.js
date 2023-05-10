@@ -6,9 +6,9 @@ function App() {
     name: "Luis Donaldo Galloso",
     location: "Puebla, Mex",
     email: "luisdonaldo.gt@gmail.com",
-    availability: "Disponible para Trabajar",
+    availability: "Open to work",
     brand:
-      "Soy un ingeniero de software con más de 2 años de experiencia en el desarrollo de aplicaciones web y móviles. Me destaco por mi capacidad para trabajar en equipo, comunicarme eficazmente y resolver problemas de manera creativa. Tengo experiencia en tecnologías como JavaScript, ReactJS, Swift, Php, etc... , y he realizado proyectos que han entregado soluciones innovadoras y de alta calidad para problemas de diversos sectores. Me apasiona el aprendizaje continuo y la implementación de buenas prácticas en el desarrollo de software. Estoy interesado en formar parte de un equipo de trabajo innovador y dinámico donde pueda seguir desarrollando mis habilidades y conocimientos en el desarrollo de software de manera respetuosa y eficaz.",
+      "I am a software engineer with more than 2 years of experience developing web and mobile applications. I stand out for my ability to work in a team, communicate effectively and solve problems creatively. I have experience in technologies such as JavaScript, ReactJS, Swift, Php, etc..., and I have carried out projects that have delivered innovative and high-quality solutions for problems in various sectors. I am passionate about continuous learning and the implementation of good practices in software development. I am interested in being part of an innovative and dynamic work team where I can continue developing my skills and knowledge in software development in a respectful and effective way.",
   };
 
   return (

@@ -42,7 +42,7 @@
 }
 
 .tech {
-  font-size: 12px;
+  font-size: 11px;
   white-space: nowrap;
 }
 
@@ -69,7 +69,7 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0.3;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
 }
 
 .closeModal {
@@ -107,15 +107,15 @@
 
   .imageContainer {
     transform: translateX(30%);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.8s ease-in-out;
   }
 
   .projectCard:hover .imageContainer {
-    transform: translateX(-70%);
+    transform: translateX(-20%);
   }
 
   .projectCard:hover .textWrap {
-    transform: translateX(-250%);
+    transform: translateX(-20%);
   }
 
   .projectCard:hover::before {
@@ -128,7 +128,7 @@
 
   .imageContainer {
     transform: translateX(30%);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.8s ease-in-out;
   }
 
   .textWrap {

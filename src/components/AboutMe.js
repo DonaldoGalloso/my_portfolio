@@ -50,15 +50,15 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Gusto en conocerte</h4>
-            <h5>Desarrollador Frontend Web & IOS !</h5>
+            <h4>Nice to meet you</h4>
+            <h5>Frontend Web & IOS Developer !</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
             <div className="infoContainer">
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Nombre:</span>
+                  <span>Name:</span>
                   <p>{name}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
@@ -70,11 +70,11 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               </div>
               <div className="row">
                 <div className="col-12 col-md-6 info">
-                  <span>Localización:</span>
+                  <span>Localization:</span>
                   <p>{location}</p>
                 </div>
                 <div className="col-12 col-md-6 info">
-                  <span>Disponibilidad:</span>
+                  <span>Status:</span>
                   <p>{availability}</p>
                 </div>
               </div>
