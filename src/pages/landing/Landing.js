@@ -34,7 +34,7 @@ const Landing = ({ name }) => {
     name: {
       color: "#fff",
       fontWeight: "700",
-      marginTop: "-100px",
+      marginTop: "50px",
       paddingBottom: "28px",
     },
     paragraft: {
@@ -45,19 +45,20 @@ const Landing = ({ name }) => {
   return (
     <section className="landing" style={styles.landing}>
       <div className="textContainer" style={styles.textContainer}>
-        <h1 className="name" style={styles.name}>
+        <h2 className="name" style={styles.name}>
           {name}
-        </h1>
+        </h2>
+        <h1 className="title">Software Engineer</h1>
         <div className="description">
           <Typewriter
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .typeString("I'm software engineer")
-                .pauseFor(3000)
-                .deleteAll()
                 .typeString("Web and mobile development enthusiast")
                 .pauseFor(3500)
+                .deleteAll()
+                .typeString("proactive for learning new technologies")
+                .pauseFor(3000)
                 .deleteAll()
                 .typeString(
                   "lover of agile methodologies, learning and teamwork."

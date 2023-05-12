@@ -32,6 +32,10 @@
   .landing .description {
     font-size: 32px;
   }
+  .landing .title {
+    font-size: 50px;
+    margin-bottom: 1rem;
+  }
 
   .landingImage {
     bottom: 0;
