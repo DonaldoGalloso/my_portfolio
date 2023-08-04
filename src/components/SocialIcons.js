@@ -11,10 +11,11 @@ const SocialIcons = () => {
   return (
     <div className="socialIcons" style={styles.socialIcons}>
       <a
-        Target="_blank"
+        target="_blank"
         className="icon"
         style={styles.icon}
         href="https://github.com/DonaldoGalloso"
+        rel="noreferrer"
       >
         <i
           className="fa-brands fa-github"
@@ -23,10 +24,11 @@ const SocialIcons = () => {
         ></i>
       </a>
       <a
-        Target="_blank"
+        target="_blank"
         className="icon"
         style={styles.icon}
         href="https://www.linkedin.com/in/donaldo-galloso/"
+        rel="noreferrer"
       >
         <i
           className="fa-brands fa-linkedin"
@@ -35,10 +37,11 @@ const SocialIcons = () => {
         ></i>
       </a>
       <a
-        Target="_blank"
+        target="_blank"
         className="icon"
         style={styles.icon}
         href="https://www.instagram.com/donald_reac/"
+        rel="noreferrer"
       >
         <i
           className="fa-brands fa-instagram"
@@ -47,10 +50,11 @@ const SocialIcons = () => {
         ></i>
       </a>
       <a
-        Target="_blank"
+        target="_blank"
         className="icon"
         style={styles.icon}
         href="https://twitter.com/DonaldReac"
+        rel="noreferrer"
       >
         <i
           className="fa-brands fa-twitter"

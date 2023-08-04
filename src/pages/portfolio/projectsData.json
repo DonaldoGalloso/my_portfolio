@@ -6,7 +6,8 @@
     "description": "I collaborated in the development of new modules for pet vaccinations as well as the refactoring of previous modules, the application allows us to carry out the administration of medical procedures that have been done to our pets, such as visits to the doctor or vaccinations.",
     "deployed": "https://vetech.com.mx/index",
     "bgcolor": "#6c4bf4",
-    "id": "3"
+    "id": "3",
+    "type": "web"
   },
   {
     "title": "TDN",
@@ -15,7 +16,8 @@
     "description": "I was responsible for the FrontEnd using tailwind, this application was developed as a prototype for the Universidad Autonoma de Puebla to be able to give a voice to the university community in order to publish relevant news for students, with different sections for all kinds of interests.",
     "deployed": "https://thedailynote.vercel.app/",
     "bgcolor": "#f85781",
-    "id": "4"
+    "id": "4",
+    "type": "web"
   },
 
   {
@@ -25,7 +27,8 @@
     "technologies": "React | Mantine | ReactQuery | Python",
     "deployed": "https://fructusvia.com/",
     "bgcolor": "#ffcc33",
-    "id": "1"
+    "id": "1",
+    "type": "web"
   },
   {
     "title": "To-doApp",
@@ -35,7 +38,8 @@
     "github": "https://github.com/DonaldoGalloso/Todo-app",
     "deployed": "https://to-doappdonaldo.netlify.app/",
     "bgcolor": "#f37737",
-    "id": "1"
+    "id": "2",
+    "type": "web"
   },
   {
     "title": "Weather",
@@ -44,6 +48,38 @@
     "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name and country.",
     "deployed": "https://climareactdonaldo.netlify.app/",
     "bgcolor": "#29cbe0",
-    "id": "2"
+    "id": "5",
+    "type": "web"
+  },
+  {
+    "title": "GamesApp",
+    "image": "./projectImages/fructus.png",
+    "description": "Currently collaborating in new modules such as regions and suppliers, the application is developed to function as an intermediary between small and medium-sized companies that offer field products, giving administration for the purchase and sale between them.",
+    "technologies": "Swift | SwiftUI | FireBase| CoreData",
+    "deployed": "https://fructusvia.com/",
+    "bgcolor": "#ffcc33",
+    "id": "1",
+    "type": "ios"
+  },
+  {
+    "title": "RandomPokemon",
+    "image": "./projectImages/todoapp.png",
+    "description": "This Application consumes the DummyJSON API which brings us a certain amount of tasks which we can edit, delete, mark as done, as well as create our own.",
+    "technologies": "Swift | SwiftUI | PokeApi",
+    "github": "https://github.com/DonaldoGalloso/Todo-app",
+    "deployed": "https://to-doappdonaldo.netlify.app/",
+    "bgcolor": "#f37737",
+    "id": "2",
+    "type": "ios"
+  },
+  {
+    "title": "TodosApp",
+    "image": "./projectImages/weather.png",
+    "technologies": "Swift | SwiftUI | CoreData",
+    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name and country.",
+    "deployed": "https://climareactdonaldo.netlify.app/",
+    "bgcolor": "#29cbe0",
+    "id": "5",
+    "type": "ios"
   }
 ]
