@@ -1,12 +1,22 @@
 [
   {
+    "title": "PetPax",
+    "image": "./projectImages/petpax.png",
+    "technologies": "React | SCSS | AWS",
+    "description": "I collaborated in the creation of the structure and the design including fundamentals of UI/UX",
+    "deployed": "https://petpaxco.com/",
+    "bgcolor": "#c074f2",
+    "id": "6",
+    "type": "web"
+  },
+  {
     "title": "Vetech",
     "image": "./projectImages/vetech.png",
     "technologies": "React | ReactQuery | Mantine | i18n | Python",
     "description": "I collaborated in the development of new modules for pet vaccinations as well as the refactoring of previous modules, the application allows us to carry out the administration of medical procedures that have been done to our pets, such as visits to the doctor or vaccinations.",
     "deployed": "https://vetech.com.mx/index",
     "bgcolor": "#6c4bf4",
-    "id": "3",
+    "id": "1",
     "type": "web"
   },
   {
@@ -16,7 +26,7 @@
     "description": "I was responsible for the FrontEnd using tailwind, this application was developed as a prototype for the Universidad Autonoma de Puebla to be able to give a voice to the university community in order to publish relevant news for students, with different sections for all kinds of interests.",
     "deployed": "https://thedailynote.vercel.app/",
     "bgcolor": "#f85781",
-    "id": "4",
+    "id": "2",
     "type": "web"
   },
 
@@ -27,7 +37,7 @@
     "technologies": "React | Mantine | ReactQuery | Python",
     "deployed": "https://fructusvia.com/",
     "bgcolor": "#ffcc33",
-    "id": "1",
+    "id": "3",
     "type": "web"
   },
   {
@@ -38,7 +48,7 @@
     "github": "https://github.com/DonaldoGalloso/Todo-app",
     "deployed": "https://to-doappdonaldo.netlify.app/",
     "bgcolor": "#f37737",
-    "id": "2",
+    "id": "4",
     "type": "web"
   },
   {
@@ -53,33 +63,42 @@
   },
   {
     "title": "GamesApp",
-    "image": "./projectImages/fructus.png",
+    "image": "./projectImages/GAMESGRID.png",
     "description": "Currently collaborating in new modules such as regions and suppliers, the application is developed to function as an intermediary between small and medium-sized companies that offer field products, giving administration for the purchase and sale between them.",
     "technologies": "Swift | SwiftUI | FireBase| CoreData",
-    "deployed": "https://fructusvia.com/",
+    "github": "https://github.com/DonaldoGalloso/Gamelibrary",
     "bgcolor": "#ffcc33",
-    "id": "1",
+    "id": "7",
     "type": "ios"
   },
   {
     "title": "RandomPokemon",
-    "image": "./projectImages/todoapp.png",
-    "description": "This Application consumes the DummyJSON API which brings us a certain amount of tasks which we can edit, delete, mark as done, as well as create our own.",
+    "image": "./projectImages/Demo.png",
+    "description": "This project has the goal of consuming a pokemon api, which makes a request to bring a random pokemon, to later show them and a button to bring another random pokemon",
     "technologies": "Swift | SwiftUI | PokeApi",
-    "github": "https://github.com/DonaldoGalloso/Todo-app",
-    "deployed": "https://to-doappdonaldo.netlify.app/",
+    "github": "https://github.com/DonaldoGalloso/pokeApi",
     "bgcolor": "#f37737",
-    "id": "2",
+    "id": "8",
     "type": "ios"
   },
   {
     "title": "TodosApp",
-    "image": "./projectImages/weather.png",
+    "image": "./projectImages/notasGrid.png",
     "technologies": "Swift | SwiftUI | CoreData",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name and country.",
-    "deployed": "https://climareactdonaldo.netlify.app/",
+    "description": "This app is intended to create notes and store them in coreData to keep the data even when the app is closed",
+    "github": "https://github.com/DonaldoGalloso/NotasApp",
     "bgcolor": "#29cbe0",
-    "id": "5",
+    "id": "9",
+    "type": "ios"
+  },
+  {
+    "title": "WidgetApp",
+    "image": "./projectImages/widgets.png",
+    "description": "aplication where we obtain the information from a third-party API and what we do with that information is create a widget and display the data, depending on the size of the widget a different design will be displayed",
+    "technologies": "Swift | SwiftUI | DummyJSON",
+    "github": "https://github.com/DonaldoGalloso/pokeApi",
+    "bgcolor": "#f37737",
+    "id": "8",
     "type": "ios"
   }
 ]
